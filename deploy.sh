@@ -3,11 +3,10 @@
 # abort on errors
 set -e
 
+cd personal_website_v2
+
 # build
 npm run build
-
-# navigate into the build output directory
-cd personal_website_v2
 
 # if you are deploying to a custom domain
 echo 'www.manningb.com' > CNAME
