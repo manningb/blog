@@ -1,4 +1,4 @@
-module.exports = {
+asmodule.exports = {
   title: "Brian Manning",
   description: "Welcome to my Personal Website!",
   dest: "public",
