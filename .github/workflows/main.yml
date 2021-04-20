@@ -33,9 +33,10 @@ jobs:
           echo test, and deploy your project.
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: personal_website_v2 # The folder the action should deploy.
-        
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: personal_website_v2
+
 
