@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Go to website directory and run build with npm
-        run: cd personal_website_v2; npm install && npm run build && ls
+        run: cd personal_website_v2; yarn install && yarn run build && ls
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
