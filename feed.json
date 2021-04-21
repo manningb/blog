@@ -1,0 +1,21 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Brian Manning",
+    "home_page_url": "https://manningb.com",
+    "feed_url": "https://manningb.com/feed.json",
+    "description": "Welcome to my Personal Website!",
+    "items": [
+        {
+            "id": "https://manningb.com/blogs/Projects/kilkennymarketplace/kilkennymarketplace.html",
+            "url": "https://manningb.com/blogs/Projects/kilkennymarketplace/kilkennymarketplace.html",
+            "title": "Kilkenny Marketplace - Ecommerce Site",
+            "summary": "Kilkenny Marketplace is an online ecommerce marketplace for local businesses in Kilkenny.",
+            "image": "/public/avatar.png",
+            "date_modified": "2020-04-20T00:00:00.000Z",
+            "author": {
+                "name": "Author",
+                "url": "https://manningb.com"
+            }
+        }
+    ]
+}
