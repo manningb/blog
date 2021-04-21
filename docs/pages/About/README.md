@@ -1,6 +1,7 @@
 ---
 title: About Brian Manning
 sidebar: false
+publish: false
 ---
 
 <img alt="" src="/avatar.png" style="width: 30%; height: 30%;">

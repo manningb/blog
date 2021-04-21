@@ -1,4 +1,18 @@
+// set your global feed options - override in page frontmatter `feed`
+const feed_options = {
+  canonical_base: "https://manningb.com",
+};
+
 module.exports = {
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-253436724",
+      },
+    ],
+    ["feed", feed_options],
+  ],
   base: "/",
   title: "Brian Manning",
   description: "Welcome to my Personal Website!",
@@ -21,6 +35,7 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
+    noFoundPageByTencent: false,
     nav: [
       {
         text: "Home",
@@ -36,6 +51,11 @@ module.exports = {
         text: "Contact",
         icon: "reco-message",
         items: [
+          // {
+          //   text: "Contact Form",
+          //   link: "/pages/contact/",
+          //   icon: "reco-message",
+          // },
           {
             text: "LinkedIn",
             link: "https://www.linkedin.com/in/manning-brian/",
@@ -73,28 +93,13 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: "Category",
+        text: "Categories",
       },
       tag: {
         location: 3,
-        text: "Tag",
+        text: "Tags",
       },
     },
-    // friendLink: [
-    //   {
-    //     title: "午后南杂",
-    //     desc: "Enjoy when you can, and endure when you must.",
-    //     email: "1156743527@qq.com",
-    //     link: "https://www.recoluan.com",
-    //   },
-    //   {
-    //     title: "vuepress-theme-reco",
-    //     desc: "A simple and beautiful vuepress Blog & Doc theme.",
-    //     avatar:
-    //       "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    //     link: "https://vuepress-theme-reco.recoluan.com",
-    //   },
-    // ],
     logo: "/avatar.png",
     search: true,
     searchMaxSuggestions: 10,

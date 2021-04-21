@@ -1,8 +1,8 @@
 ---
 
 home: true
-heroText: Brian Manning
-tagline: Welcome to my personal website!
+heroText: Welcome!
+tagline: Msc Computer Science Student in UCD. Background in Actuarial and Financial Studies.
 
 # heroImage: /hero.png
 
@@ -24,6 +24,3 @@ tagline: Welcome to my personal website!
 
 bgImageStyle: { height: "450px" }
 isShowTitleInHome: false
-footerStyle: {
-display: none;
-}
