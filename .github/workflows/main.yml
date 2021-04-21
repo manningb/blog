@@ -31,6 +31,6 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: .
+          FOLDER: personal_website_v2
 
 
