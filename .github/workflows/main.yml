@@ -24,13 +24,13 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Go to website directory and run build with npm
-        run: cd personal_website_v2; yarn install && yarn run build && ls
+        run: npm install && npm run docs:build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: personal_website_v2
+          FOLDER: docs/.vuepress/dist
 
 
