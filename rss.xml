@@ -4,7 +4,7 @@
         <title>Brian Manning</title>
         <link>https://manningb.com</link>
         <description>Welcome to my Personal Website!</description>
-        <lastBuildDate>Fri, 23 Apr 2021 19:06:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Apr 2021 11:50:47 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://manningb.com/feed.atom" rel="self" type="application/rss+xml"/>
